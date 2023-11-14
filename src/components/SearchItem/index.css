@@ -1,0 +1,20 @@
+.place-item{
+    list-style-type: none;
+    width:230px;
+    margin:0px 15px 32px 15px;
+}
+.place-img{
+    width:235px;
+    height:175px;
+}
+.name{
+    color:#01284e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+@media screen and (min-width:768px){
+    .name{
+        font-size:20px;
+    }
+}

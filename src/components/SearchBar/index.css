@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Fira+Sans+Extra+Condensed:ital,wght@1,300&family=Inter&family=Poppins:ital,wght@0,400;0,600;1,300;1,400&family=Roboto+Condensed:ital@1&family=Roboto+Slab:wght@300&display=swap');
+.app-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(205, 227, 232);
+    background-size: cover;
+    height:180vh;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 1140px;
+}
+
+@media screen and (min-width: 768px) {
+    .search-container{
+      align-items: flex-start;
+    }
+}
+
+.heading {
+    text-align: center;
+    color: #01284e;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 48px;
+    margin-left: 15px;
+    margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+    .heading {
+      margin-top: 96px;
+    }
+}
+.search-cont {
+    display: flex;
+    background-color: #e7eaed;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    margin-left: 15px;
+}
+.search-input{
+  color: #01284e;
+  background-color: #e7eaed;
+  font-family: 'Open Sans';
+  font-size: 21px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+.search-icon{
+  height: 30px;
+  width: 30px;
+}
+.list-places{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 48px;
+}
+@media screen and (min-width: 768px) {
+    .list-places {
+      justify-content: flex-start;
+    }
+  }
+  
